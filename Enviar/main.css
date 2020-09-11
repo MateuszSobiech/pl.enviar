@@ -1,0 +1,251 @@
+body
+{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header a:hover
+{
+    text-decoration: underline!important;
+}
+
+.nav-link
+{
+    color: black!important;
+    font-weight: 600;
+    font-size: 17px;
+}
+.navbar
+{
+    padding: .5rem .5rem;
+}
+
+.navbar
+{
+    border-bottom: 2px silver solid;
+}
+
+.kontakt
+{
+    color: white!important;
+    background-color: black;
+
+    transition: 0.5s;
+}
+.kontakt:hover
+{
+    color: black!important;
+    box-shadow: inset 9.7em 0 0 0 #F9E46E;
+    text-decoration: none!important;
+}
+h4
+{
+    /*color: #F9E46E;*/
+    color: black;
+    font-family: 'Pacifico', cursive;
+    font-weight: 700;
+    font-size: 34px;
+
+}
+.ptak
+{
+	width: 80%;
+	height: auto;
+}
+
+/*-----------------------------PTAK-------------------------------*/
+
+.text1
+{
+    font-size: 20px;
+}
+.sec
+{
+    margin-top: 50px;
+}
+.logomain
+{
+    width: 60%;
+}
+
+
+/*-----------------------------FOOTER-------------------------------*/
+.bg-footer
+{
+    background-color: black;
+}
+
+a.tilelink, a.tilelink1, a.tilelink2
+{
+    color: black;
+}
+.footer a.tilelink,.footer a.tilelink1,.footer a.tilelink2
+{
+    color: white;
+}
+a.tilelink:hover
+{
+    color: rgb(47, 99, 209);
+}
+a.tilelink1:hover
+{
+    color: #d6249f;
+    
+}
+a.tilelink2:hover
+{
+    color: #5ebdf5;
+}
+
+.row
+{
+    margin-right: 0px;
+}
+
+.stopka a
+{
+    color: #F9E46E;
+}
+
+/*-----------------------------MEDIA-------------------------------*/
+@media (max-width: 575px)
+{
+    .blockquote
+    {
+        font-size: 17px!important;
+    }
+    .kontakt
+    {
+        padding: 5px!important;
+        margin: 0!important;
+    }
+    .kontakt:hover
+    {
+        color: white!important;
+        box-shadow: none;
+        text-decoration: underline!important;
+    }
+    /*.onass
+    {
+        margin-top: 0px!important;
+        padding: 0!important;
+        margin-left: 40px!important;
+    }*/
+    .card
+    {
+        background-color: #F9E46E;
+        padding: 30px;
+        margin-left: 10px;
+    }
+    .taniec
+    {
+        font-size: 15px!important;
+    }
+    .logomain
+    {
+        width: 100%!important;
+    }
+    .ktoonas
+    {
+        font-size: 37px!important;
+    }
+    .k_w
+    {
+        width: 100%!important;
+        margin-top: 60px;
+        margin-bottom: 70px;        
+    }
+}
+
+/*-----------------------------ONAS-------------------------------*/
+.onass
+{
+    color: black;
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 40px;
+}
+.kto
+{
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+}
+.kto1
+{
+    font-size: 48px;
+    font-family: 'Pacifico', cursive;
+}
+
+.taniec
+{
+    font-size: 1rem;
+}
+
+/*-----------------------------JAK-------------------------------*/
+
+ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0;
+    margin: 0;
+  }
+.jak li:before {
+    content: "✔"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+    color: #F9E46E; /* Or a color you prefer */
+  }
+
+.jak_txt
+{
+    font-size: 20px;
+}
+.jak_box
+{
+    border: solid yellow;
+    border-radius: 10px;
+    border-width: 5px 2px;
+}
+
+/*-----------------------------OFERTY-------------------------------*/
+
+h5
+{
+    font-weight: 600;
+}
+
+
+/*-----------------------------KONTAKT-------------------------------*/
+
+.card
+{
+    background-color: #F9E46E;
+    padding: 30px 20px;
+}
+.card li
+{
+    margin-top: 10px;
+}
+
+.kicon
+{
+    margin-top: 10px;
+    font-size: 45px;
+}
+
+.k_box
+{   
+    border: solid rgb(255, 255, 25);
+    border-width: 10px 3px 10px 10px;
+    padding: 55px 10px;
+    letter-spacing: 2px;
+}   
+
+.k_box li
+{
+    margin-top: 15px;
+}
+
+.k_w
+{
+    width: 60%;
+}
